@@ -1,6 +1,6 @@
-class TrierTaches extends App {
+export default class TrierTaches {
     constructor(el) {
-        super();
+        
         this._el = el;
         this._elTaches = document.querySelector('[data-js-taches]');
 
